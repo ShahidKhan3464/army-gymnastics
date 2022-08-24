@@ -1,0 +1,46 @@
+.CardData {
+    height: 400px;
+    padding: 43px 34px;
+    border: 0.6px solid #BEBDBD;
+}
+
+.CardData .img {
+    width: 58px;
+    height: 62px
+}
+
+.CardData .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.cardData-body {
+    gap: 29px;
+    display: flex;
+    margin-top: 38px;
+    flex-direction: column;
+}
+
+.cardData-body h6 {
+    font-size: 24px;
+    color: #3A4856;
+    font-weight: 700;
+    line-height: 29px;
+    text-transform: uppercase;
+}
+
+.cardData-body p {
+    width: 100%;
+    max-width: 270px;
+    color: #777777;
+}
+
+.cardData-body a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #0082BD;
+    line-height: 29px;
+    font-style: normal;
+    font-family: 'Montserrat';
+}

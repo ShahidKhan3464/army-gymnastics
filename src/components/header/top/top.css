@@ -1,0 +1,39 @@
+.Top {
+    background: #3A4856;
+}
+
+.Top .data {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.data .contact {
+    gap: 28px;
+    display: flex;
+    color: #FFFFFF;
+}
+
+.contact>div {
+    gap: 11px;
+    display: flex;
+    align-items: center;
+}
+
+.contact>div p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    font-style: normal;
+    font-family: 'Roboto';
+}
+
+.Top .social-media {
+    gap: 44px;
+    display: flex;
+}
+
+.social-media img {
+    height: 13px;
+}

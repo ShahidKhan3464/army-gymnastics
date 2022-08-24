@@ -1,0 +1,54 @@
+.Nutritional {
+    display: flex;
+    margin-top: 92px;
+    min-height: 516px;
+    align-items: center;
+    margin-bottom: 74px;
+    background-size: cover;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/images/nutritional.png');
+}
+
+.Nutritional h3 {
+    width: 100%;
+    font-size: 50px;
+    max-width: 906px;
+    color: #FFFFFF;
+    line-height: 61px;
+    text-align: center;
+    margin-bottom: 11px;
+}
+
+.Nutritional p {
+    width: 100%;
+    margin: auto;
+    max-width: 687px;
+    color: #777777;
+    line-height: 37px;
+    text-align: center;
+}
+
+.Nutritional button {
+    width: 218px;
+    height: 47px;
+    border: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 600;
+    margin-top: 30px;
+    line-height: 37px;
+    margin-right: 17px;
+    font-style: normal;
+    font-family: 'Montserrat';
+}
+
+.Nutritional .playBtn {
+    background: #0082BD;
+}
+
+.Nutritional .courseBtn {
+    background: none;
+    border: 2px solid #FFFFFF;
+}

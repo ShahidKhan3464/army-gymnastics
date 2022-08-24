@@ -1,0 +1,25 @@
+.Banner {
+    display: flex;
+    color: #FFFFFF;
+    min-height: 610px;
+    align-items: center;
+    background-size: cover;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/images/banner.png');
+}
+
+.Banner h3 {
+    width: 100%;
+    max-width: 830px;
+    text-align: center;
+    margin-bottom: 47px;
+}
+
+.Banner P {
+    width: 100%;
+    margin: auto;
+    max-width: 600px;
+    text-align: center;
+}

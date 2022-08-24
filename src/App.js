@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Header from "./components/header/header"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css'
+import Banner from "./components/banner/Banner";
+import Cards from "./components/cards/Cards"
+import Podcast from "./components/army-podcast/Podcast";
+import Nutritional from "./components/nutritional-yeast/Nutritional";
+import Shop from "./components/shop/Shop"
+import About from "./components/about/About";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Banner />
+      <Cards />
+      <Podcast />
+      <Nutritional />
+      <Shop />
+      <About />
     </div>
   );
 }
