@@ -23,3 +23,39 @@
     max-width: 600px;
     text-align: center;
 }
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .Banner {
+        min-height: 500px;
+    }
+
+    .Banner h3 {
+        font-size: 55px;
+        max-width: 540px;
+        margin-bottom: 30px;
+    }
+
+    .Banner p {
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .Banner {
+        min-height: 300px;
+    }
+
+    .Banner h3 {
+        font-size: 25px;
+        max-width: 320px;
+        line-height: 35px;
+        margin-bottom: 10px;
+    }
+
+    .Banner p {
+        font-size: 12px;
+        max-width: 300px;
+        line-height: 20px;
+    }
+}

@@ -1,0 +1,161 @@
+.Footer {
+    margin-top: 110px;
+    background: #3A4856;
+}
+
+.Footer p {
+    font-size: 16px;
+    color: #A6A6A6;
+    font-weight: 400;
+    line-height: 19px;
+    font-style: normal;
+    font-family: 'Barlow';
+}
+
+.Footer .upper-footer {
+    padding-top: 70px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #333333;
+}
+
+.upper-footer .description {
+    width: 100%;
+    max-width: 305px;
+    margin-top: 25px;
+}
+
+.upper-footer .social-icons {
+    gap: 24px;
+    width: 140px;
+    display: flex;
+    margin-top: 34px;
+}
+
+.upper-footer h6 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 24px;
+    font-style: normal;
+    margin-bottom: 50px;
+    font-family: 'Barlow';
+}
+
+.upper-footer .contact {
+    gap: 18px;
+    display: flex;
+    margin-bottom: 17px;
+}
+
+.upper-footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+.upper-footer ul li {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    font-style: normal;
+    margin-bottom: 17px;
+    font-family: 'Barlow';
+}
+
+.upper-footer ul li a {
+    color: #A6A6A6;
+}
+
+.upper-footer .field {
+    width: 230px;
+    height: 50px;
+    display: flex;
+    padding: 0 15px;
+    margin-top: 23px;
+    border-radius: 2px;
+    align-items: center;
+    border: 1px solid #A6A6A6;
+}
+
+.field input {
+    width: 90%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #A6A6A6;
+    font-weight: 400;
+    background: none;
+    line-height: 19px;
+    font-style: normal;
+    font-family: 'Barlow';
+}
+
+.field button {
+    width: 10%;
+    border: none;
+    height: 100%;
+    background: transparent;
+}
+
+.lower-footer {
+    padding: 30px 0;
+}
+
+/* Media Queries */
+@media screen and (max-width: 991px) {
+    .upper-footer .social-icons {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .Footer {
+        margin-top: 50px;
+    }
+
+    .Footer p {
+        font-size: 12px;
+    }
+
+    .Footer .upper-footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .upper-footer .description {
+        margin-top: 15px;
+    }
+
+    .upper-footer .social-icons {
+        margin-top: 20px;
+    }
+
+    .upper-footer h6 {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .upper-footer .contact {
+        gap: 10px;
+    }
+
+    .upper-footer ul li {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .upper-footer .field {
+        width: 200px;
+        height: 40px;
+        padding: 0 5px;
+        margin-top: 15px;
+    }
+
+    .field input {
+        font-size: 12px;
+    }
+
+    .lower-footer {
+        padding: 20px 0;
+    }
+}

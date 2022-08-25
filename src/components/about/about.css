@@ -49,3 +49,61 @@
     background: #0082BD;
     font-family: 'Montserrat';
 }
+
+/* Media Queries */
+@media screen and (max-width: 991px) {
+    .About .img {
+        margin: auto;
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .About {
+        margin: 60px 0;
+    }
+
+    .About .img {
+        max-width: 520px;
+    }
+
+    .About .right {
+        gap: 30px;
+        height: 448px;
+        max-width: 500px;
+        padding: 50px 0 55px 30px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .About {
+        margin: 50px 0;
+    }
+
+    .About .img {
+        height: 300px;
+        max-width: 300px;
+    }
+
+    .About .right {
+        gap: 20px;
+        height: 320px;
+        max-width: 300px;
+        padding: 10px 0 0px 10px;
+    }
+
+    .About .right h6 {
+        font-size: 25px;
+    }
+
+    .About .right p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .About button {
+        width: 100px;
+        height: 35px;
+        font-size: 12px;
+    }
+}

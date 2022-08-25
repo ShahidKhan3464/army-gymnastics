@@ -8,10 +8,12 @@ import './navbar.css'
 const Navb = () => {
 
     return (
-        <Navbar>
+        <Navbar expand="lg">
             <Container>
                 <Navbar.Brand href="#home">
-                    <img src={logo} alt="logo" />
+                    <div className="img">
+                        <img src={logo} alt="logo" />
+                    </div>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -35,7 +37,9 @@ const Navb = () => {
 
                         <NavDropdown
                             title={
-                                <img src={user} alt="user" />
+                                <div className='user'>
+                                    <img src={user} alt="user" />
+                                </div>
                             }
                             id="basic-nav-dropdown"
                         >

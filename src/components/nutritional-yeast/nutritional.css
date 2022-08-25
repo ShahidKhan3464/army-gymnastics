@@ -30,6 +30,11 @@
     text-align: center;
 }
 
+.Nutritional .btns {
+    display: flex;
+    justify-content: center;
+}
+
 .Nutritional button {
     width: 218px;
     height: 47px;
@@ -51,4 +56,48 @@
 .Nutritional .courseBtn {
     background: none;
     border: 2px solid #FFFFFF;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .Nutritional h3 {
+        font-size: 45px;
+        max-width: 520px;
+    }
+
+    .Nutritional p {
+        max-width: 520px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .Nutritional {
+        margin-top: 50px;
+        min-height: 380px;
+        margin-bottom: 40px;
+    }
+
+    .Nutritional h3 {
+        font-size: 25px;
+        max-width: 320px;
+        line-height: 35px;
+    }
+
+    .Nutritional p {
+        font-size: 12px;
+        max-width: 300px;
+        line-height: 20px;
+    }
+
+    .Nutritional .btns {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Nutritional button {
+        width: 150px;
+        height: 40px;
+        font-size: 12px;
+        margin-right: 0px;
+    }
 }
